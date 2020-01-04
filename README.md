@@ -2,7 +2,8 @@
 
 <div align="center">
 
-  <h1><code>wasm-pack-template</code></h1>
+  <h1><code>Conways Game of Life in RUST/WASM </code></h1>
+  <p><code>by Harry Ghazni</code></p>
 
 <img src="gameoflife.gif" alt="Game of Life"/>
 
