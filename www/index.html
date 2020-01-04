@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello wasm-pack!</title>
+    <style>
+      body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background:black;
+        overflow: hidden;
+      }
+
+      .title {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      h1, p {
+        color: white;
+        margin: 0;
+      }
+
+      canvas {
+        border: 15px solid green;
+      }
+    </style>
+  </head>
+  <body>
+   <div class="title">
+    <h1>Conways Game of Life</h1>
+    <p>Made by Harry Ghazni</p>
+   </div>
+    <canvas id="game-of-life-canvas"></canvas>
+    <script src='./bootstrap.js'></script>
+  </body>
+</html>
