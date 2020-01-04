@@ -4,7 +4,7 @@
 
   <h1><code>wasm-pack-template</code></h1>
 
-<video width="500" height="500" autoplay preload>
+<video width="500" height="500" controls preload>
   <source src="gameoflife.webm">
 </video>
 
